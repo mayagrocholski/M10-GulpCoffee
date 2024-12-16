@@ -1,0 +1,267 @@
+
+/* fonts */
+.header{
+    font-family:"poppins", sans-serif;
+  }
+  .paragraph{
+    font-family:"lato", sans-serif;
+  }
+/* nav bar*/
+  .logo1{
+    height:100px;
+  }
+  .nav{
+    text-decoration: none;
+    color: #082B59;
+  }
+  .navBar{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 20px; 
+  }
+  .navLinks{
+    display: flex; 
+    gap: 20px;
+  }
+/* about us*/
+  .aboutUs{
+    text-align:center;
+    font-size:50px;
+    color:#F2F2F2;
+    background-color:#082B59;
+    padding: 5%;
+  }
+  
+  .headImage{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    width: 50%;
+  }
+/*HOME PAGE*/
+.homeHead{
+  text-align:center;
+  font-size: 30px;
+  color:#F2F2F2;
+  background-color:#082B59;
+  padding: 3%;
+  margin:0;
+  margin-top:30px; 
+}
+.beans{
+  width:100%;
+}
+.text3{
+  display:flex;
+  align-items:center;
+  margin-left:2%;
+}
+.viewButton{
+  display:flex;
+  justify-content: center; 
+  margin:20px;
+}
+button{
+  display:flex;
+  justify-content: center;
+  background-color: #082B59;
+  color:white;
+  border: 5px solid white;
+  border-radius: 50px;
+  text-align: center;
+  padding:20px;
+  font-size: 17px;;
+}
+/*ABOUT PAGE*/
+/* body 1 */
+  .block_element{
+    align-content:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    background-color:#59331D;
+    background-clip: content-box;
+    color: white;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+  }
+  .link{
+    color:#F2F2F2;
+  }
+  
+  .introImage {
+    float: left;
+    margin-right: 20px;
+  }
+  .introImage img{
+    display: block;
+  }
+  
+  .contact{
+    border: 3px solid #F2F2F2;
+    
+    width: 150px;
+    text-align:center;
+    padding: 4px;
+    margin:0 auto;
+  }
+  .contact a:visited {
+    color: #F2F2F2;
+    background-color: transparent;
+  }
+  
+  .text1{
+    margin-top:10%;
+    margin-bottom: 2%;
+  }
+  
+/* Second Half*/
+  
+  .block_element2{
+    align-content:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    background-color:#59331D;
+    background-clip: content-box;
+    color: white;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+  }
+
+  .flex-container{
+    display:flex;
+    flex-direction:row;
+    
+  }
+  .secondaryImage {
+    float: right;
+  }
+  .secondaryImage img{
+    display:block;
+  }
+  .text2{
+    margin-top:12%;
+    margin-bottom: 2%;
+    margin-left:2%;
+  }
+  .rights{
+    text-align:center;
+    color:#082B59;
+  }
+  .socials{
+    text-align:center;
+    color:#082B59;
+  }
+  .socials a:visited {
+    color: #082B59;
+    background-color: transparent;
+  }
+/*PRODUCTS PAGE*/
+.allProducts{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+}
+.productImage{
+  width:200px;
+  height:200px;
+  margin: 0 auto;
+  display:flex;
+  object-fit: cover;
+  padding-top:20px;
+}
+.productText{
+  text-align: center;
+  padding-left:10px;
+  padding-right:10px;
+}
+.productCard{
+  width:350px;
+  height:450px;
+  border: 5px solid #082B59;
+  border-radius: 10px;
+  background-color: #082B59;
+  color:white;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+/*CONTACT PAGE*/
+.contactBlock{
+  align-content:center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 20px;
+  background-color:#59331D;
+  background-clip: content-box;
+  color: white;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: row;
+}
+.contactList{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+}
+
+/*media queries*/
+  @media (max-width: 1100px) {
+    .block_element {
+      flex-direction: column;
+    }
+    .introImage{
+      display: flex;
+      justify-content:center;
+    }
+    .text1{
+      margin:0%;
+      padding: 10px;
+      text-align: center;
+    }
+    .contact{
+      display:flex;
+      
+      justify-content: center;
+      margin: 0 auto;   
+    }
+    .block_element2 {
+      flex-direction: column;
+    }
+    .secondaryImage{
+      display: flex;
+      justify-content:center;
+    }
+    .text2{
+      margin:0%;
+      padding: 10px;
+      text-align: center;
+    }
+    .text3{
+      margin:0%;
+      padding: 10px;
+      text-align: center;
+    }
+    .contactBlock{
+      flex-direction: column;
+    }
+    .contactList{
+      text-align:center;
+    }
+  }
+  @media (max-width: 500px) {
+    .introImage{
+      justify-content:center;
+      padding-left:20px;
+      padding-top:20px;
+    }
+  }
+
+
